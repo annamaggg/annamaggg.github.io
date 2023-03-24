@@ -36,5 +36,10 @@
 .pages:hover::before {
   visibility: visible;
   transform: scaleX(1);
-  background-color: white;
+  background-color: rgb(238, 169, 141);
+}
+
+.pages:hover {
+  transition: all 0.3s ease-in-out 0s;
+  color: rgb(238, 169, 141);
 }
