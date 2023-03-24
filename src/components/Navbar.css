@@ -14,13 +14,13 @@
   margin-right: 100px;
 }
 
-a {
+.pages {
   text-decoration: none;
   position: relative;
   color: white;
 }
 
-a::before {
+.pages::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -33,7 +33,7 @@ a::before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-a:hover::before {
+.pages:hover::before {
   visibility: visible;
   transform: scaleX(1);
   background-color: white;
