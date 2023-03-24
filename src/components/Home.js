@@ -2,6 +2,7 @@ import React from 'react'
 import Sketch from 'react-p5';
 import { Navbar } from './Navbar';
 import './Home.css';
+import ProfilePic from '../content/ProfilePic.jpeg';
 
 export const Home = () => {
   const dotsNum = 300;
@@ -15,7 +16,7 @@ export const Home = () => {
   // }
 
   const setup = (p5, canvasParentRef) => {
-    p5.createCanvas(800, 620).parent(canvasParentRef);
+    p5.createCanvas(1000, 620).parent(canvasParentRef);
     p5.strokeWeight(0.25);
     p5.stroke(255, 255, 255);
   }
@@ -31,7 +32,7 @@ export const Home = () => {
       const b = p5.noise(noiseIndex, 1) * 3;
       const theta = p5.map(i, 0, dotsNum, 0, p5.TWO_PI);    
       const t = p5.frameCount/240;
-      const x = p5.cos(a * theta + t) * radius * 1.2; //
+      const x = p5.cos(a * theta + t) * radius * 1.5; //
       const y = p5.sin(b * theta + t) * radius * 0.95;
       dots.push({ x, y });
     }
@@ -53,6 +54,7 @@ export const Home = () => {
       <div className='parent' style={{ height: "100vh" }}>
 
         <div className='child'>
+          <img src={ProfilePic} className="profilepic" alt='me'></img>
           <h1 className='name'>Anna Magnusson</h1>
           <p className='description'>A portfolio of software development and visual design.</p>
         </div>
