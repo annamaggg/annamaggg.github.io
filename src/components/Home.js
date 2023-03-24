@@ -1,14 +1,21 @@
 import React from 'react'
 import Sketch from 'react-p5';
 import { Navbar } from './Navbar';
+import './Home.css';
 
 export const Home = () => {
   const dotsNum = 300;
   const radius = 300;
   const distance = 100;
 
+  // const setup = (p5, canvasParentRef) => {
+  //   p5.createCanvas(1020, 720);
+  //   p5.strokeWeight(0.25);
+  //   p5.stroke(255, 255, 255);
+  // }
+
   const setup = (p5, canvasParentRef) => {
-    p5.createCanvas(1020, 720);
+    p5.createCanvas(1000, 720).parent(canvasParentRef);
     p5.strokeWeight(0.25);
     p5.stroke(255, 255, 255);
   }
@@ -42,12 +49,15 @@ export const Home = () => {
   return (
     <>
       <Navbar />
-      <div>
-        <h1>Hello</h1>
-        <p>This is the Homepage</p>
-      </div>
-      <div>
-        <Sketch setup={setup} draw={draw} />
+      <div className='parent' style={{ height: "100vh" }}>
+
+        <div className='child'>
+          <h1>Hello</h1>
+          <p>This is the Homepage</p>
+        </div>
+        <div className='child2'>
+          <Sketch setup={setup} draw={draw} />
+        </div>
       </div>
     </>
   )

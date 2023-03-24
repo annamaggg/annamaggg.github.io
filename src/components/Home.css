@@ -1,0 +1,26 @@
+.parent {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+  height: 100%;
+  display: flex; /* add this */
+  flex-direction: row; /* add this */
+}
+
+.child {
+  flex: 1;
+  border: 1px solid red;
+  padding: 1rem;
+  width: 20%;
+  box-sizing: border-box;
+}
+
+.child2 {
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  box-sizing: border-box;
+}
