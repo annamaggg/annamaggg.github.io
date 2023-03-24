@@ -48,17 +48,19 @@ export const Home = () => {
 
   return (
     <>
+    <div className='outer'>
       <Navbar />
       <div className='parent' style={{ height: "100vh" }}>
 
         <div className='child'>
-          <h1>Anna Magnusson</h1>
-          <p>A portfolio of software development and visual design.</p>
+          <h1 className='name'>Anna Magnusson</h1>
+          <p className='description'>A portfolio of software development and visual design.</p>
         </div>
         <div className='child2'>
           <Sketch setup={setup} draw={draw} />
         </div>
       </div>
+    </div>
     </>
   )
 }

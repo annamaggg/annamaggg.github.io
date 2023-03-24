@@ -1,8 +1,13 @@
+.outer {
+  height: 100%;
+}
+
 .list {
   display: flex;
   list-style: none;
   justify-content: center;
   align-items: center;
+  /* background-color: antiquewhite; */
 }
 
 .list li {
@@ -11,5 +16,9 @@
 
 .list a {
   text-decoration: none;
-  color: black;
+  color: white;
+}
+
+.list a:hover {
+  text-decoration: underline;
 }

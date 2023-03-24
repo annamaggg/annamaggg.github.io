@@ -1,3 +1,12 @@
+body {
+  margin: 0;
+}
+.outer {
+  background-color: rgb(26, 26, 26);
+  width: 100%;
+  height: 100%;
+}
+
 .parent {
   /* border: 1px solid black; */
   background-color: rgb(26, 26, 26);
@@ -14,7 +23,7 @@
   flex: 1;
   /* border: 1px solid red; */
   padding: 1rem;
-  padding-bottom: 170px;
+  padding-bottom: 100px;
   width: 20%;
   box-sizing: border-box;
   display: flex;
@@ -32,4 +41,15 @@
   align-items: top;
   width: 80%;
   box-sizing: border-box;
+}
+
+.name {
+  font-size: 60px;
+  margin: 10px;
+}
+
+.description {
+  font-size: 25px;
+  color: rgb(143, 143, 143);
+  margin: 10px;
 }

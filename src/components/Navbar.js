@@ -2,7 +2,7 @@ import './Navbar.css';
 
 export const Navbar = () => {
   return (
-    <div>
+    <div className='outer'>
       <nav style={{textAlign: 'center'}}>
         <ul className='list'>
           <li><a href="/">Home</a></li>
