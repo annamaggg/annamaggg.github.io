@@ -23,6 +23,12 @@
   color: rgb(140,140,140);
 }
 
+.textQuote {
+  color: rgb(165, 165, 165);
+  font-style: oblique;
+  font-weight: 600;
+}
+
 .aa {
   text-decoration: none;
   font-size: 15px;
@@ -51,7 +57,7 @@
   flex: 2;
   margin: 20px;
   display: flex;
-  align-self: center;
+  align-self:flex-start;
   text-align: center;
 }
 
