@@ -7,6 +7,7 @@ import FMPshot from '../content/FMP.png';
 import neighbourcare from '../content/neighbourcare.png';
 import studioProj from '../content/studioProj.png';
 import bankAccount from '../content/bankAccount.png';
+import dinoRescue from '../content/dinoRescue.png';
 
 export const Software = () => {
   return (
@@ -90,16 +91,29 @@ export const Software = () => {
 
       <div className='container'>
         <div className='textElements'>
-          <h1>JUNGLE JIM</h1>
+          <h1>DINO RESCUE</h1>
           <p className='textBody'>
-          This university project involved creating code art responsive to music frequencies which was 
-          put together into a music video. All artwork was created with the p5.js Javascript library using 
-          OpenProcessing.<br></br> 
-          To activate music response, click the screen in the example art scripts below</p>
-          <a href='https://openprocessing.org/sketch/896416' target="blank" className='aa'><p className='textButton'>View a script</p></a>
+          Created a small platform game where the player must deliver medicine to a lost dinosaur, if they can 
+          avoid the pteradactlys. All artwork was created in Photoshop and the game was built with the p5.js Javascript library using 
+          OpenProcessing.</p>
+          <a href='https://openprocessing.org/sketch/715040' target="blank" className='aa'><p className='textButton'>View the code</p></a>
         </div>
         <div className='image'>
-          <img src={studioProj} alt='studioProj' className='imageimg'/>
+          <img src={dinoRescue} alt='dinoRescue' className='imageimg'/>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='textElements'>
+          <h1>DINO RESCUE</h1>
+          <p className='textBody'>
+          Created a small platform game where the player must deliver medicine to a lost dinosaur, if they can 
+          avoid the pteradactlys. All artwork was created in Photoshop and the game was built with the p5.js Javascript library using 
+          OpenProcessing.</p>
+          <a href='https://openprocessing.org/sketch/715040' target="blank" className='aa'><p className='textButton'>View the code</p></a>
+        </div>
+        <div className='image'>
+          <img src={dinoRescue} alt='dinoRescue' className='imageimg'/>
         </div>
       </div>
 

@@ -12,6 +12,7 @@
 .textElements {
   flex: 3.5;
   margin: 20px;
+  align-self:flex-start;
 }
 
 .textElements h1 {
