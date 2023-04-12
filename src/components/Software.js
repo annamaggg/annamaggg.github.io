@@ -5,6 +5,8 @@ import BurnBook from '../content/BurnBook.png';
 import JapaneseRPG from '../content/rpg.png';
 import FMPshot from '../content/FMP.png';
 import neighbourcare from '../content/neighbourcare.png';
+import studioProj from '../content/studioProj.png';
+import bankAccount from '../content/bankAccount.png';
 
 export const Software = () => {
   return (
@@ -45,15 +47,14 @@ export const Software = () => {
 
       <div className='container'>
         <div className='textElements'>
-          <h1>NEIGHBOURCARE</h1>
-          <p className='textBody'>Paid work - Dec 2020<br></br><br></br>
-          Neighbourcare is an organisation which helps deliver medication and offer transport to appointments 
-          for vulnerable people, created during lockdown. I contibuted to the software used by this organisation by creating
-          a function which converts a JSON record of data to an xml format for diplay in another file.  </p>
-          <a href='https://ewhneighbourcare.org.uk' target="blank" className='aa'><p className='textButton'>View client website</p></a>
+          <h1>BANK ACCOUNT</h1>
+          <p className='textBody'>Tech test application. <br></br><br></br>
+          The user is able to input deposit amounts, or withdrawal amounts into a bank system. A statement is 
+          returned including the date of each transaction, amount of withdrawal or deposit and the resulting balance. </p>
+          <a href='https://github.com/annamaggg/bank_account' target="blank" className='aa'><p className='textButton'>View the code</p></a>
         </div>
         <div className='image'>
-          <img src={neighbourcare} alt='neighbourcare' className='imageimg'/>
+          <img src={bankAccount} alt='bankAccount' className='imageimg'/>
         </div>
       </div>
 
@@ -69,6 +70,50 @@ export const Software = () => {
         </div>
         <div className='image'>
           <img src={FMPshot} alt='FMPshot' className='imageimg'/>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='textElements'>
+          <h1>STUDIO PROJECT</h1>
+          <p className='textBody'>
+          This university project involved creating code art responsive to music frequencies which was 
+          put together into a music video. All artwork was created with the p5.js Javascript library using 
+          OpenProcessing.<br></br> 
+          To activate music response, click the screen in the example art scripts below</p>
+          <a href='https://openprocessing.org/sketch/896416' target="blank" className='aa'><p className='textButton'>View a script</p></a>
+        </div>
+        <div className='image'>
+          <img src={studioProj} alt='studioProj' className='imageimg'/>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='textElements'>
+          <h1>JUNGLE JIM</h1>
+          <p className='textBody'>
+          This university project involved creating code art responsive to music frequencies which was 
+          put together into a music video. All artwork was created with the p5.js Javascript library using 
+          OpenProcessing.<br></br> 
+          To activate music response, click the screen in the example art scripts below</p>
+          <a href='https://openprocessing.org/sketch/896416' target="blank" className='aa'><p className='textButton'>View a script</p></a>
+        </div>
+        <div className='image'>
+          <img src={studioProj} alt='studioProj' className='imageimg'/>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='textElements'>
+          <h1>NEIGHBOURCARE</h1>
+          <p className='textBody'>Paid work - Dec 2020<br></br><br></br>
+          Neighbourcare is an organisation which helps deliver medication and offer transport to appointments 
+          for vulnerable people, created during lockdown. I contributed to the software used by this organisation by creating
+          a function which converts a JSON record of data to an xml format for diplay in another file.  </p>
+          <a href='https://ewhneighbourcare.org.uk' target="blank" className='aa'><p className='textButton'>View client website</p></a>
+        </div>
+        <div className='image'>
+          <img src={neighbourcare} alt='neighbourcare' className='imageimg'/>
         </div>
       </div>
       
