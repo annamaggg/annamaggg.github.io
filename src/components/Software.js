@@ -4,6 +4,7 @@ import './Software.css';
 import BurnBook from '../content/BurnBook.png';
 import JapaneseRPG from '../content/rpg.png';
 import FMPshot from '../content/FMP.png';
+import neighbourcare from '../content/neighbourcare.png';
 
 export const Software = () => {
   return (
@@ -39,6 +40,20 @@ export const Software = () => {
         </div>
         <div className='image'>
           <img src={BurnBook} alt='Burnbook' className='imageimg'/>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='textElements'>
+          <h1>NEIGHBOURCARE</h1>
+          <p className='textBody'>Paid work - Dec 2020<br></br><br></br>
+          Neighbourcare is an organisation which helps deliver medication and offer transport to appointments 
+          for vulnerable people, created during lockdown. I contibuted to the software used by this organisation by creating
+          a function which converts a JSON record of data to an xml format for diplay in another file.  </p>
+          <a href='https://ewhneighbourcare.org.uk' target="blank" className='aa'><p className='textButton'>View client website</p></a>
+        </div>
+        <div className='image'>
+          <img src={neighbourcare} alt='neighbourcare' className='imageimg'/>
         </div>
       </div>
 
