@@ -8,6 +8,7 @@ import neighbourcare from '../content/neighbourcare.png';
 import studioProj from '../content/studioProj.png';
 import bankAccount from '../content/bankAccount.png';
 import dinoRescue from '../content/dinoRescue.png';
+import spaceX from '../content/spaceXLander.png';
 
 export const Software = () => {
   return (
@@ -105,15 +106,15 @@ export const Software = () => {
 
       <div className='container'>
         <div className='textElements'>
-          <h1>DINO RESCUE</h1>
+          <h1>SPACE X LANDER</h1>
           <p className='textBody'>
-          Created a small platform game where the player must deliver medicine to a lost dinosaur, if they can 
-          avoid the pteradactlys. All artwork was created in Photoshop and the game was built with the p5.js Javascript library using 
+          Created a small game where the player must land a rocket on the landing pad. If land too 
+          quickly, they will crash. All artwork was created in Photoshop and the game was built with the p5.js Javascript library using 
           OpenProcessing.</p>
-          <a href='https://openprocessing.org/sketch/715040' target="blank" className='aa'><p className='textButton'>View the code</p></a>
+          <a href='https://openprocessing.org/sketch/683818' target="blank" className='aa'><p className='textButton'>View the code</p></a>
         </div>
         <div className='image'>
-          <img src={dinoRescue} alt='dinoRescue' className='imageimg'/>
+          <img src={spaceX} alt='spaceX' className='imageimg'/>
         </div>
       </div>
 
