@@ -9,6 +9,7 @@ import studioProj from '../content/studioProj.png';
 import bankAccount from '../content/bankAccount.png';
 import dinoRescue from '../content/dinoRescue.png';
 import spaceX from '../content/spaceXLander.png';
+import makersbnb from '../content/makersbnb.png';
 
 export const Software = () => {
   return (
@@ -25,7 +26,7 @@ export const Software = () => {
           The app was designed using Trello boards, Excalidraw and Photoshop.
           It was built using MongoDB database, JavaScript with React framework, Redux toolkit, Node.js, Express.js, Cypress, Jest
           and TailwindCSS.</p>
-          <a href='https://github.com/SimpleLuke/japanese-learning-RPG' target="blank" className='aa'><p className='textButton'>View the code</p></a>
+          <a href='https://github.com/annamaggg/japanese-learning-RPG' target="blank" className='aa'><p className='textButton'>View the code</p></a>
         </div>
         <div className='image'>
           <img src={JapaneseRPG} alt='JapaneseRPG' className='imageimg'/>
@@ -40,10 +41,25 @@ export const Software = () => {
           was designed using Trello boards, Excalidraw and Photoshop.
           It was built using MongoDB database, JavaScript with React framework, 
           and TailwindCSS.</p>
-          <a href='https://github.com/SimpleLuke/acebook-fire' target="blank" className='aa'><p className='textButton'>View the code</p></a>
+          <a href='https://github.com/annamaggg/acebook-fire' target="blank" className='aa'><p className='textButton'>View the code</p></a>
         </div>
         <div className='image'>
           <img src={BurnBook} alt='Burnbook' className='imageimg'/>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='textElements'>
+          <h1>MAKERS BNB</h1>
+          <p className='textBody'>Created a social media web application in a group of six. 
+          Similarly to AirBnb, Users can sign up, log in, view listings, post an available property, 
+          request to book a property and view requests made on their properties. The app 
+          was designed using Trello boards and Excalidraw.
+          It was built using Ruby, Rack, Postgres, RSPEC and Bootstrap.</p>
+          <a href='https://github.com/annamaggg/makers_bnb' target="blank" className='aa'><p className='textButton'>View the code</p></a>
+        </div>
+        <div className='image'>
+          <img src={makersbnb} alt='makersbnb' className='imageimg'/>
         </div>
       </div>
 
@@ -82,7 +98,7 @@ export const Software = () => {
           This university project involved creating code art responsive to music frequencies which was 
           put together into a music video. All artwork was created with the p5.js Javascript library using 
           OpenProcessing.<br></br> 
-          To activate music response, click the screen in the example art scripts below</p>
+          To activate music response, click the screen in the example art scripts below.</p>
           <a href='https://openprocessing.org/sketch/896416' target="blank" className='aa'><p className='textButton'>View a script</p></a>
         </div>
         <div className='image'>
