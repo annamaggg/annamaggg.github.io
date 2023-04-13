@@ -124,7 +124,8 @@ export const Software = () => {
           <p className='textBody'>Paid work - Dec 2020<br></br><br></br>
           Neighbourcare is an organisation which helps deliver medication and offer transport to appointments 
           for vulnerable people, created during lockdown. I contributed to the software used by this organisation by creating
-          a function which converts a JSON record of data to an xml format for diplay in another file.  </p>
+          a function which converts a JSON record of data to an xml format for diplay in another file. This project
+          was worked on in Zoho Forms and written in Deluge. </p>
           <a href='https://ewhneighbourcare.org.uk' target="blank" className='aa'><p className='textButton'>View client website</p></a>
         </div>
         <div className='image'>
