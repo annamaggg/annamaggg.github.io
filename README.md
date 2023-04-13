@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+<br />
+<div align="center">
+  <img width="861" alt="image" src="https://github.com/annamaggg/my-portfolio/blob/d8271782f6d50a4c53da9b513d62b50c03b3a016/src/content/homepageScreenshot.png">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">My portfolio (in development)</h3>
+</div>
 
 ## Available Scripts
 
@@ -11,9 +14,13 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## liscencing
 
+Animation:
+
+“Random Lissajous Webs” by Naoki Tsutaehttp://openprocessing.org/sketch/1793237License CreativeCommons Attribution NonCommercial ShareAlikehttps://creativecommons.org/licenses/by-nc-sa/3.0
+
+<!-- 
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
@@ -70,9 +77,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-
-## liscencing
-
-Animation:
-
-“Random Lissajous Webs” by Naoki Tsutaehttp://openprocessing.org/sketch/1793237License CreativeCommons Attribution NonCommercial ShareAlikehttps://creativecommons.org/licenses/by-nc-sa/3.0
+ -->
