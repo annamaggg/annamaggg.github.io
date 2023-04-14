@@ -24,7 +24,6 @@ It was designed using Photoshop mockups and was managed with Trello boards:
 <div align="center">
   <img width="861" alt="image" src="https://github.com/annamaggg/my-portfolio/blob/02cb7f016013cbbe0f379a8b78b1e19f74374c64/src/content/trelloScreenshot.png">
 
-  <h3 align="center">My portfolio (in development)</h3>
 </div>
 
 ## Run the project
