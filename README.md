@@ -5,7 +5,29 @@
   <h3 align="center">My portfolio (in development)</h3>
 </div>
 
-## Available Scripts
+## Description
+
+This website was created to showcase my software development skills and projects. It also includes projects that illustrate my experience in visual design which may demonstrate my ability to understand the link between software and user experience. 
+
+## Technology
+
+This project was built using:
+
+- React.js
+- CSS
+- Node.js
+- Jest
+
+It was designed using Photoshop mockups and was managed with Trello boards:
+
+<br />
+<div align="center">
+  <img width="861" alt="image" src="https://github.com/annamaggg/my-portfolio/blob/02cb7f016013cbbe0f379a8b78b1e19f74374c64/src/content/trelloScreenshot.png">
+
+  <h3 align="center">My portfolio (in development)</h3>
+</div>
+
+## Run the project
 
 In the project directory, you can run:
 
