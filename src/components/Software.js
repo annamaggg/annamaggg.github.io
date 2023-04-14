@@ -10,6 +10,7 @@ import bankAccount from '../content/bankAccount.png';
 import dinoRescue from '../content/dinoRescue.png';
 import spaceX from '../content/spaceXLander.png';
 import makersbnb from '../content/makersbnb.png';
+import chitter from '../content/chitter.png';
 
 export const Software = () => {
   return (
@@ -65,6 +66,20 @@ export const Software = () => {
 
       <div className='container'>
         <div className='textElements'>
+          <h1>CHITTER</h1>
+          <p className='textBody'>Created a social media web application based on Twitter. <br></br>
+          Users can sign up, log in, create posts with an attached date and view posts in descending
+          order. <br></br>
+          The app was built using Ruby, Rack, Postgres, RSPEC and CSS.</p>
+          <a href='https://github.com/annamaggg/chitter_challenge' target="blank" className='aa'><p className='textButton'>View the code</p></a>
+        </div>
+        <div className='image'>
+          <img src={chitter} alt='chitter' className='imageimg'/>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='textElements'>
           <h1>BANK ACCOUNT</h1>
           <p className='textBody'>Tech test application. <br></br><br></br>
           The user is able to input deposit amounts, or withdrawal amounts into a bank system. A statement is 
@@ -83,9 +98,7 @@ export const Software = () => {
           Floresence is a puzzle game set in a circuit board which evolves into a japanese temple and garden as puzzles are completed. <br></br><br></br>
           Built in Unity and developed using C#.</p>
           <p className='textQuote'>"This was a successful project which had a solid and consistent visual design and effective execution. It was brave and 
-            ambitious to take on a considerable degree of game coding at this stage with not that much prior practice" - John Weinbren (head of department)</p>
-          <a href='https://github.com/SimpleLuke/acebook-fire' target="blank" className='aa'><p className='textButton'>View the code</p></a>
-        </div>
+            ambitious to take on a considerable degree of game coding at this stage with not that much prior practice" - John Weinbren (head of department)</p>        </div>
         <div className='image'>
           <img src={FMPshot} alt='FMPshot' className='imageimg'/>
         </div>
@@ -124,7 +137,7 @@ export const Software = () => {
         <div className='textElements'>
           <h1>SPACE X LANDER</h1>
           <p className='textBody'>
-          Created a small game where the player must land a rocket on the landing pad. If land too 
+          Created a small game where the player must land a rocket on the landing pad. If they land too 
           quickly, they will crash. All artwork was created in Photoshop and the game was built with the p5.js Javascript library using 
           OpenProcessing.</p>
           <a href='https://openprocessing.org/sketch/683818' target="blank" className='aa'><p className='textButton'>View the code</p></a>
