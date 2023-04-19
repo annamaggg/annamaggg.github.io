@@ -36,7 +36,21 @@ import d4 from '../content/galleryImages/dandy4.png'
 import d5 from '../content/galleryImages/dandy5.png'
 import d6 from '../content/galleryImages/dandy6.png'
 
+import a1 from '../content/galleryImages/a1.jpg'
+import a2 from '../content/galleryImages/a2.jpg'
+import a3 from '../content/galleryImages/a3.jpg'
+import a4 from '../content/galleryImages/a4.jpg'
+import a5 from '../content/galleryImages/a5.jpg'
+import a6 from '../content/galleryImages/a6.jpg'
+import a7 from '../content/galleryImages/a7.jpg'
+import a8 from '../content/galleryImages/a8.jpg'
+import a9 from '../content/galleryImages/a9.jpg'
 
+import p1 from '../content/galleryImages/p1.jpg'
+import p2 from '../content/galleryImages/p2.jpg'
+import p3 from '../content/galleryImages/p3.jpg'
+import p4 from '../content/galleryImages/p4.jpg'
+import p5 from '../content/galleryImages/p5.jpg'
 
 const finalProjectPhotos = [
   { src: f1, width: 200, height: 200 },
@@ -78,6 +92,26 @@ const travisPalacePhotos = [
   { src: tp6, width: 300, height: 200 },
 ]
 
+const posterPhotos = [
+  { src: p1, width: 200, height: 270 },
+  { src: p2, width: 200, height: 270 },
+  { src: p3, width: 200, height: 270 },
+  { src: p4, width: 200, height: 270 },
+  { src: p5, width: 200, height: 270 },
+]
+
+const albumArtPhotos = [
+  { src: a1, width: 200, height: 200 },
+  { src: a2, width: 600, height: 600 },
+  { src: a3, width: 600, height: 600 },
+  { src: a4, width: 200, height: 200 },
+  { src: a5, width: 600, height: 600 },
+  { src: a6, width: 600, height: 600 },
+  { src: a7, width: 200, height: 200 },
+  { src: a8, width: 600, height: 600 },
+  { src: a9, width: 600, height: 600 },
+];
+
 export const VisualDesign = () => {
   return (
     <>
@@ -99,6 +133,14 @@ export const VisualDesign = () => {
 
       <div class="fp-gallery">
         <PhotoAlbum  layout="rows" photos={travisPalacePhotos} />;
+      </div>
+
+      <div class="fp-gallery">
+        <PhotoAlbum  layout="rows" photos={posterPhotos} />;
+      </div>
+
+      <div class="fp-gallery">
+        <PhotoAlbum  layout="rows" photos={albumArtPhotos} />;
       </div>
     </>
 
