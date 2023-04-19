@@ -23,6 +23,13 @@ import tp4 from '../content/galleryImages/tp4.png'
 import tp5 from '../content/galleryImages/tp5.png'
 import tp6 from '../content/galleryImages/tp6.png'
 
+import golf1 from '../content/galleryImages/golf1.jpg'
+import golf2 from '../content/galleryImages/golf2.jpg'
+import golf3 from '../content/galleryImages/golf3.jpg'
+import golf4 from '../content/galleryImages/golf4.jpg'
+import golf5 from '../content/galleryImages/golf5.jpg'
+
+
 const finalProjectPhotos = [
   { src: f1, width: 200, height: 200 },
   { src: f2, width: 600, height: 600 },
@@ -36,6 +43,14 @@ const finalProjectPhotos = [
   { src: f10, width: 200, height: 200 },
   { src: f11, width: 600, height: 600 },
 ];
+
+const golfPhotos = [
+  { src: golf3, width: 700, height: 400 },
+  { src: golf4, width: 700, height: 400 },
+  { src: golf5, width: 700, height: 400 },
+  { src: golf1, width: 700, height: 400 },
+  { src: golf2, width: 700, height: 400 },
+]
 
 const travisPalacePhotos = [
   { src: tp1, width: 300, height: 200 },
@@ -55,6 +70,10 @@ export const VisualDesign = () => {
       </div>
       <div class="fp-gallery">
         <PhotoAlbum  layout="rows" photos={finalProjectPhotos} />;
+      </div>
+
+      <div class="fp-gallery">
+        <PhotoAlbum  layout="rows" photos={golfPhotos} />;
       </div>
 
       <div class="fp-gallery">
