@@ -98,7 +98,9 @@ export const Software = () => {
           Floresence is a puzzle game set in a circuit board which evolves into a japanese temple and garden as puzzles are completed. <br></br><br></br>
           Built in Unity and developed using C#.</p>
           <p className='textQuote'>"This was a successful project which had a solid and consistent visual design and effective execution. It was brave and 
-            ambitious to take on a considerable degree of game coding at this stage with not that much prior practice" - John Weinbren (head of department)</p>        </div>
+            ambitious to take on a considerable degree of game coding at this stage with not that much prior practice" - John Weinbren (head of department)</p>        
+            {/* <a href='' target="blank" className='aa'><p className='textButton'>View gallery</p></a> */}
+            </div>
         <div className='image'>
           <img src={FMPshot} alt='FMPshot' className='imageimg'/>
         </div>
