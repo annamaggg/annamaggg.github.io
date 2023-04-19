@@ -29,6 +29,14 @@ import golf3 from '../content/galleryImages/golf3.jpg'
 import golf4 from '../content/galleryImages/golf4.jpg'
 import golf5 from '../content/galleryImages/golf5.jpg'
 
+import d1 from '../content/galleryImages/dandy1.png'
+import d2 from '../content/galleryImages/dandy2.png'
+import d3 from '../content/galleryImages/dandy3.png'
+import d4 from '../content/galleryImages/dandy4.png'
+import d5 from '../content/galleryImages/dandy5.png'
+import d6 from '../content/galleryImages/dandy6.png'
+
+
 
 const finalProjectPhotos = [
   { src: f1, width: 200, height: 200 },
@@ -52,6 +60,15 @@ const golfPhotos = [
   { src: golf2, width: 700, height: 400 },
 ]
 
+const dandyPhotos = [
+  { src: d1, width: 200, height: 400 },
+  { src: d2, width: 200, height: 400 },
+  { src: d3, width: 200, height: 400 },
+  { src: d4, width: 200, height: 400 },
+  { src: d5, width: 200, height: 400 },
+  { src: d6, width: 200, height: 400 },
+]
+
 const travisPalacePhotos = [
   { src: tp1, width: 300, height: 200 },
   { src: tp2, width: 300, height: 200 },
@@ -70,6 +87,10 @@ export const VisualDesign = () => {
       </div>
       <div class="fp-gallery">
         <PhotoAlbum  layout="rows" photos={finalProjectPhotos} />;
+      </div>
+
+      <div class="fp-gallery">
+        <PhotoAlbum  layout="rows" photos={dandyPhotos} />;
       </div>
 
       <div class="fp-gallery">
