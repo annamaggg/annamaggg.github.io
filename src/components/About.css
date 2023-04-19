@@ -1,0 +1,25 @@
+.paragraph {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.textBody {
+  color: rgb(140,140,140);
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}

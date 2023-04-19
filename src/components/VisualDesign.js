@@ -16,6 +16,10 @@ import f9 from '../content/galleryImages/f9.png'
 import f10 from '../content/galleryImages/f10.png'
 import f11 from '../content/galleryImages/f11.png'
 
+import e1 from '../content/galleryImages/ellieSite.jpg'
+import e2 from '../content/galleryImages/ellieSite2.png'
+import e3 from '../content/galleryImages/ellieSite3.png'
+
 import tp1 from '../content/galleryImages/tp1.png'
 import tp2 from '../content/galleryImages/tp2.png'
 import tp3 from '../content/galleryImages/tp3.png'
@@ -64,6 +68,15 @@ const finalProjectPhotos = [
   { src: f9, width: 600, height: 600 },
   { src: f10, width: 200, height: 200 },
   { src: f11, width: 600, height: 600 },
+];
+
+const ellieArtPhotos = [
+  // { src: e1, width: 400, height: 220 },
+  // { src: e2, width: 400, height: 220 },
+  // { src: e3, width: 400, height: 220 },
+  
+  { src: e2, width: 600, height: 320 },
+  { src: e3, width: 600, height: 320 },
 ];
 
 const golfPhotos = [
@@ -117,14 +130,20 @@ export const VisualDesign = () => {
     <>
       <Navbar />
       <div>
-        <h1>This is the VisualDesign page</h1>
+        <p1>This is a paragraph about my design skills</p1>
       </div>
+
       <div class="fp-gallery">
-        <PhotoAlbum  layout="rows" photos={finalProjectPhotos} />;
+      <img src={e1} alt='EllieArtSite' className='ellieArtHomepage'/>
+        <PhotoAlbum  layout="rows" photos={ellieArtPhotos} />;
       </div>
 
       <div class="fp-gallery">
         <PhotoAlbum  layout="rows" photos={dandyPhotos} />;
+      </div>
+
+      <div class="fp-gallery">
+        <PhotoAlbum  layout="rows" photos={finalProjectPhotos} />;
       </div>
 
       <div class="fp-gallery">

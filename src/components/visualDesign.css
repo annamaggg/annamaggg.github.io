@@ -1,4 +1,11 @@
 .fp-gallery {
-  width: 90%;
+  width: 80%;
   margin: auto;
+}
+
+.ellieArtHomepage {
+  width: 50%;
+  margin: auto;
+  display: block;
+  padding-bottom: 20px;
 }
