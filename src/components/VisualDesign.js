@@ -129,37 +129,43 @@ export const VisualDesign = () => {
   return (
     <>
       <Navbar />
-      <div>
-        <p1>This is a paragraph about my design skills</p1>
+      <div className='paragraph'>
+        <h1 className='text-page-heading'>Visual design</h1>
+        <p className="text-page-intro">As a developer and designer, I understand the importance of user experience and visual design. <br></br><br></br>
+        I approach every project with a keen eye for detail, considering factors such as positioning, sizing and color schemes of elements to ensure that the end result is both aesthetically pleasing and intuitive to use. I believe that combining technical skill with a deep understanding of user needs is essential to creating impactful and engaging projects, and I strive to achieve this balance in everything I work on.</p>
       </div>
 
-      <div class="fp-gallery">
+      <div className="fp-gallery">
       <img src={e1} alt='EllieArtSite' className='ellieArtHomepage'/>
         <PhotoAlbum  layout="rows" photos={ellieArtPhotos} />;
       </div>
 
-      <div class="fp-gallery">
+      <div className="fp-gallery">
         <PhotoAlbum  layout="rows" photos={dandyPhotos} />;
       </div>
 
-      <div class="fp-gallery">
+      <div className="fp-gallery">
         <PhotoAlbum  layout="rows" photos={finalProjectPhotos} />;
       </div>
 
-      <div class="fp-gallery">
+      <div className="fp-gallery">
         <PhotoAlbum  layout="rows" photos={golfPhotos} />;
       </div>
 
-      <div class="fp-gallery">
+      <div className="fp-gallery">
         <PhotoAlbum  layout="rows" photos={travisPalacePhotos} />;
       </div>
 
-      <div class="fp-gallery">
+      <div className="fp-gallery">
         <PhotoAlbum  layout="rows" photos={posterPhotos} />;
       </div>
 
-      <div class="fp-gallery">
+      <div className="fp-gallery">
         <PhotoAlbum  layout="rows" photos={albumArtPhotos} />;
+      </div>
+
+      <div className='backToTop'>
+        <a href="/visual-design" className='toTopText'>Back to top</a>
       </div>
     </>
 

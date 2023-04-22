@@ -164,6 +164,9 @@ export const Software = () => {
         </div>
       </div>
       
+      <div className='backToTop'>
+        <a href="/software" className='toTopText'>Back to top</a>
+      </div>
     </>
   )
 }

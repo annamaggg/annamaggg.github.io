@@ -1,10 +1,12 @@
 import React from 'react';
+import Sketch from 'react-p5';
 import './About.css';
 import { Navbar } from './Navbar';
 import githubIcon from '../content/githubIcon.png';
 import linkedinIcon from '../content/linkedinIcon.png';
 
 export const About = () => {
+
   return (
     <>
       <Navbar />
@@ -17,7 +19,7 @@ export const About = () => {
           <a href='https://www.linkedin.com/in/anna-magnusson-519658199/' target="blank"><img src={linkedinIcon} alt='linkedinIcon' className='icon'/></a>
         </div>
       
-
+        {/* <Sketch setup={setup} draw={draw} /> */}
     </>
   )
 }
