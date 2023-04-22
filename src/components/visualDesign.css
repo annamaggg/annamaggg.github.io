@@ -1,13 +1,13 @@
 .paragraph {
   display: flex;
   justify-content: center;
-  
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding-bottom: 70px;
+  padding-top: 70px;
 }
 
 .text-page-heading {
-  color: rgb(191, 191, 191);
+  color: rgb(238, 169, 141);
+  /* color: rgb(191, 191, 191); */
   width: 30%;
   margin: 0;
   /* align-self: center; */

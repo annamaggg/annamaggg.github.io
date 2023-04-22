@@ -11,7 +11,11 @@ export const About = () => {
     <>
       <Navbar />
       <div className='paragraph'>
-        <p1 className="textBody">This is a paragraph about me</p1>
+        <h1 className='text-page-heading'>About me</h1>
+        <p className="text-page-intro">I recently completed a software development bootcamp at Makers Academy, where I learned the principles of object-oriented programming, test-driven development, paired programming, and agile workflow, among other skills. I am now looking for exciting opportunities to develop my capabilities further and apply my skills to real-world projects. Thank you for taking the time to visit my page, and I hope you enjoy exploring my work.<br></br><br></br>
+        I am open to collaborate on projects and love talking to new people so please get in touch if you would like to chat! <br></br><br></br><br></br><br></br>
+        Email me at: <br></br><br></br>
+        annamagnusson99@gmail.com</p>
       </div>
 
         <div className='icons'>
