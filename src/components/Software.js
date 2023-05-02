@@ -52,10 +52,10 @@ export const Software = () => {
       <div className='container'>
         <div className='textElements'>
           <h1>MAKERS BNB</h1>
-          <p className='textBody'>Created a social media web application in a group of six. 
-          Similarly to AirBnb, Users can sign up, log in, view listings, post an available property, 
-          request to book a property and view requests made on their properties. The app 
-          was designed using Trello boards and Excalidraw.
+          <p className='textBody'>Created a travel app which provides a platform for property rental opportunities through listings and bookings in a group of six. 
+          Users can sign up, log in, view listings, post an available property, 
+          request to book a property and view requests made on their properties. <br></br>
+          The app was designed using Trello boards and Excalidraw.
           It was built using Ruby, Rack, Postgres, RSPEC and Bootstrap.</p>
           <a href='https://github.com/annamaggg/makers_bnb' target="blank" className='aa'><p className='textButton'>View the code</p></a>
         </div>
@@ -99,7 +99,7 @@ export const Software = () => {
           Built in Unity and developed using C#.</p>
           <p className='textQuote'>"This was a successful project which had a solid and consistent visual design and effective execution. It was brave and 
             ambitious to take on a considerable degree of game coding at this stage with not that much prior practice" - John Weinbren (head of department)</p>        
-            {/* <a href='' target="blank" className='aa'><p className='textButton'>View gallery</p></a> */}
+            <a href='https://youtu.be/L_S-pZcmzA8' target="blank" className='aa'><p className='textButton'>View game trailer</p></a>
             </div>
         <div className='image'>
           <img src={FMPshot} alt='FMPshot' className='imageimg'/>

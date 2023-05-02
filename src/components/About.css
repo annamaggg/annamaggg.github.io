@@ -9,6 +9,13 @@
   color: rgb(140,140,140);
 }
 
+.text-page-intro-about {
+  color: rgb(191, 191, 191);
+  width: 60%;
+  margin: 10px 50px;
+  /* text-align: center; */
+}
+
 .icon {
   width: 40px;
   height: 40px;

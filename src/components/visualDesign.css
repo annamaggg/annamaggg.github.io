@@ -18,9 +18,9 @@
 
 .text-page-intro {
   color: rgb(191, 191, 191);
-  width: 50%;
+  width: 60%;
   margin: 10px 50px;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .fp-gallery {

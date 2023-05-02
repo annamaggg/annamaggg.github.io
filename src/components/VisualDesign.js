@@ -114,12 +114,12 @@ const posterPhotos = [
 ]
 
 const albumArtPhotos = [
+  { src: a4, width: 200, height: 200 },
+  { src: a6, width: 600, height: 600 },
   { src: a1, width: 200, height: 200 },
+  { src: a5, width: 600, height: 600 },
   { src: a2, width: 600, height: 600 },
   { src: a3, width: 600, height: 600 },
-  { src: a4, width: 200, height: 200 },
-  { src: a5, width: 600, height: 600 },
-  { src: a6, width: 600, height: 600 },
   { src: a7, width: 200, height: 200 },
   { src: a8, width: 600, height: 600 },
   { src: a9, width: 600, height: 600 },
@@ -130,9 +130,9 @@ export const VisualDesign = () => {
     <>
       <Navbar />
       <div className='paragraph'>
-        <h1 className='text-page-heading'>Visual design</h1>
-        <p className="text-page-intro">As a developer and designer, I understand the importance of user experience and visual design. <br></br><br></br>
-        I approach every project with a keen eye for detail, considering factors such as positioning, sizing and color schemes of elements to ensure that the end result is both aesthetically pleasing and intuitive to use. I believe that combining technical skill with a deep understanding of user needs is essential to creating impactful and engaging projects, and I strive to achieve this balance in everything I work on.</p>
+        {/* <h1 className='text-page-heading'>Visual design</h1> */}
+        <p className="text-page-intro">As a developer with a background in design, I understand the importance of user experience and visual design. <br></br><br></br>
+        I approach every project with a keen eye for detail, considering factors such as positioning, sizing and color schemes of elements to ensure that the end result is both aesthetically pleasing and intuitive to use. I believe that combining technical skill with a deep understanding of user needs is essential to creating impactful and engaging products.</p>
       </div>
 
       <div className="fp-gallery">
