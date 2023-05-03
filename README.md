@@ -2,7 +2,7 @@
 <div align="center">
   <img width="861" alt="image" src="https://github.com/annamaggg/my-portfolio/blob/d8271782f6d50a4c53da9b513d62b50c03b3a016/src/content/homepageScreenshot.png">
 
-  <h3 align="center">My portfolio (in development)</h3>
+  <h3 align="center">My portfolio</h3>
 </div>
 
 ## Description
