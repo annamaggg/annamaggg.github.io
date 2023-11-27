@@ -40,7 +40,7 @@ export const Software = () => {
         <div className='textElements'>
           <h1>MyV&A</h1>
           <p className='textBody'>MyV&A is a website where users can explore the V&A's online archive of artefacts. <br></br><br></br>
-          Users can signup, login and save any artefacts to their own collections. A randomiser feature allows users to find artefacts at random, and the search page allows users to search the archive<br></br><br></br>
+          Users can signup, login and save any artefacts to their own collections. A randomiser feature allows users to find artefacts at random, and the search page allows users to search the archive.<br></br><br></br>
           The app was designed using Trello boards, Excalidraw and Figma.
           It was built using Ruby, HTML, JavaScript, sinatra, webrick, rspec, httparty
           and rack-test.</p>
