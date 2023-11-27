@@ -11,11 +11,13 @@ import dinoRescue from '../content/dinoRescue.png';
 import spaceX from '../content/spaceXLander.png';
 import makersbnb from '../content/makersbnb.png';
 import chitter from '../content/chitter.png';
+import myva from '../content/myV&A.png';
 
 export const Software = () => {
   return (
     <>
       <Navbar />
+      
       <div className='container'>
         <div className='textElements'>
           <h1>IINE</h1>
@@ -31,6 +33,21 @@ export const Software = () => {
         </div>
         <div className='image'>
           <img src={JapaneseRPG} alt='JapaneseRPG' className='imageimg'/>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='textElements'>
+          <h1>MyV&A</h1>
+          <p className='textBody'>MyV&A is a website where users can explore the V&A's online archive of artefacts. <br></br><br></br>
+          Users can signup, login and save any artefacts to their own collections. A randomiser feature allows users to find artefacts at random, and the search page allows users to search the archive<br></br><br></br>
+          The app was designed using Trello boards, Excalidraw and Figma.
+          It was built using Ruby, HTML, JavaScript, sinatra, webrick, rspec, httparty
+          and rack-test.</p>
+          <a href='https://github.com/annamaggg/VAM_API_display' target="blank" className='aa'><p className='textButton'>View the code</p></a>
+        </div>
+        <div className='image'>
+          <img src={myva} alt='myva' className='imageimg'/>
         </div>
       </div>
 
