@@ -57,9 +57,6 @@ import p3 from '../content/galleryImages/p3.jpg'
 import p4 from '../content/galleryImages/p4.jpg'
 import p5 from '../content/galleryImages/p5.jpg'
 
-import m1 from '../content/galleryImages/model1.png'
-import m2 from '../content/galleryImages/model2.png'
-import m3 from '../content/galleryImages/model3.png'
 
 const finalProjectPhotos = [
   { src: f1, width: 200, height: 200 },
@@ -93,9 +90,9 @@ const golfPhotos = [
 ]
 
 const modelPhotos = [
-  { src: m1, width: 700, height: 400 },
-  { src: m2, width: 700, height: 400 },
-  { src: m3, width: 700, height: 400 }
+  { src: 'https://res.cloudinary.com/dnwbll6u0/image/upload/model1_sn22ow.jpg', width: 700, height: 400 },
+  { src: 'https://res.cloudinary.com/dnwbll6u0/image/upload/model2_qpae9j.jpg', width: 700, height: 400 },
+  { src: 'https://res.cloudinary.com/dnwbll6u0/image/upload/model3_akx0zz.jpg', width: 700, height: 400 }
 ]
 
 const dandyPhotos = [
