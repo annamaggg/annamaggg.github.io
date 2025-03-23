@@ -57,6 +57,10 @@ import p3 from '../content/galleryImages/p3.jpg'
 import p4 from '../content/galleryImages/p4.jpg'
 import p5 from '../content/galleryImages/p5.jpg'
 
+import m1 from '../content/galleryImages/model1.png'
+import m2 from '../content/galleryImages/model2.png'
+import m3 from '../content/galleryImages/model3.png'
+
 const finalProjectPhotos = [
   { src: f1, width: 200, height: 200 },
   { src: f2, width: 600, height: 600 },
@@ -86,6 +90,12 @@ const golfPhotos = [
   { src: golf5, width: 700, height: 400 },
   { src: golf1, width: 700, height: 400 },
   { src: golf2, width: 700, height: 400 },
+]
+
+const modelPhotos = [
+  { src: m1, width: 700, height: 400 },
+  { src: m2, width: 700, height: 400 },
+  { src: m3, width: 700, height: 400 }
 ]
 
 const dandyPhotos = [
@@ -167,7 +177,13 @@ export const Gallery = () => {
         <PhotoAlbum  layout="rows" photos={travisPalacePhotos} />;
       </div>
 
-      <Divider title="PRESHA" description="Posters created for a DJ group using Photoshop" />
+      <Divider title="3D MODELS" description="Various models built using Maya" />
+
+      <div className="fp-gallery">
+        <PhotoAlbum  layout="rows" photos={modelPhotos} />;
+      </div>
+
+      <Divider title="PRESHA" description="Posters created for a music event group using Photoshop" />
 
       <div className="fp-gallery">
         <PhotoAlbum  layout="rows" photos={posterPhotos} />;
