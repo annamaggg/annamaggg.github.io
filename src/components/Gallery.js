@@ -1,7 +1,8 @@
 import React from 'react';
 import { Navbar } from './Navbar';
-import './visualDesign.css';
+import './Gallery.css';
 import PhotoAlbum from "react-photo-album";
+import { Divider } from './Divider';
 // documentation: https://react-photo-album.com
 
 import f1 from '../content/galleryImages/f1.jpg'
@@ -125,7 +126,7 @@ const albumArtPhotos = [
   { src: a9, width: 600, height: 600 },
 ];
 
-export const VisualDesign = () => {
+export const Gallery = () => {
   return (
     <>
       <Navbar />
@@ -135,30 +136,44 @@ export const VisualDesign = () => {
         I approach every project with a keen eye for detail, considering factors such as positioning, sizing and color schemes of elements to ensure that the end result is both aesthetically pleasing and intuitive to use. I believe that combining technical skill with a deep understanding of user needs is essential to creating impactful and engaging products.</p>
       </div>
 
+      <Divider title="ELLIE FANE" description="A website built for an artist" />
+
       <div className="fp-gallery">
       <img src={e1} alt='EllieArtSite' className='ellieArtHomepage'/>
         <PhotoAlbum  layout="rows" photos={ellieArtPhotos} />;
       </div>
 
+      <Divider title="DANDY" description="An app which suggests activities to do during lockdown" />
+
       <div className="fp-gallery">
         <PhotoAlbum  layout="rows" photos={dandyPhotos} />;
       </div>
+
+      <Divider title="UNIVERSITY FINAL PROJECT" description="Artwork and 3D models created for a game, using Photoshop & Maya" />
 
       <div className="fp-gallery">
         <PhotoAlbum  layout="rows" photos={finalProjectPhotos} />;
       </div>
 
+      <Divider title="GOLF COURSE" description="Terrain and 3D models created using Unity and Maya" />
+
       <div className="fp-gallery">
         <PhotoAlbum  layout="rows" photos={golfPhotos} />;
       </div>
+
+      <Divider title="TRAVIS' PALACE" description="A game created where the user must find Travis Scott and deliver the golden beat to him. Scenery and 3D models created using Unity and Maya" />
 
       <div className="fp-gallery">
         <PhotoAlbum  layout="rows" photos={travisPalacePhotos} />;
       </div>
 
+      <Divider title="PRESHA" description="Posters created for a DJ group using Photoshop" />
+
       <div className="fp-gallery">
         <PhotoAlbum  layout="rows" photos={posterPhotos} />;
       </div>
+
+      <Divider title="ALBUM ART" description="Created for various artists using Photoshop" />
 
       <div className="fp-gallery">
         <PhotoAlbum  layout="rows" photos={albumArtPhotos} />;
